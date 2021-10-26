@@ -45,7 +45,7 @@ class CropActivity : BaseActivity(), ICropView.Proxy {
     override fun onCreateOptionsMenu(menu: Menu): Boolean {
         menuInflater.inflate(R.menu.crop_activity_menu, menu)
 
-        menu.setGroupVisible(R.id.enhance_group, showMenuItems)
+       /* menu.setGroupVisible(R.id.enhance_group, showMenuItems) */
 
         menu.findItem(R.id.rotation_image).isVisible = showMenuItems
 
